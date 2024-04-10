@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Finance Tracker</title>
+</head>
+<body>
+    <header>
+        <h1>Personal Finance Tracker</h1>
+    </header>
+    <main>
+        <form  action="/add" method="post">
+        <section class="card">
+            <h2>Enter Expenses</h2>
+            <select id="expenseCategory">
+                <option value="income">Income</option>
+                <option value="expenses">Expenses</option>
+            </select>
+            <input type="number" id="expenseCost" placeholder="Income/Expense Cost">
+            <input type="text" id="expenseTitle" placeholder="Income/Expense Title">
+            <input type="date" id="Income/expenseDate">
+            <button id="addExpense">Add Expense</button>
+        </section>
+        <section class="card">
+            <h2>Expenses Table</h2>
+            <table id="expensesTable">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Cost</th>
+                        <th>Title</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Expense rows will be dynamically added here -->
+                </tbody>
+                <tfoot>
+                    <td>Total:</td>
+                    <td id="total-amount"></td>
+                    <td></td>
+                    <td></td>
+                </tfoot>
+            </table>
+        </section>
+        <button id="exportCSV">Export CSV</button>
+    </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

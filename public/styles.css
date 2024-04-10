@@ -1,0 +1,89 @@
+body {
+    background-color: #60699cd3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+/* Center all headings */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+/* Card with hover effect and border effect */
+.card {
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+    position: relative;
+    background-color: white;
+    color: black;
+    margin-top: 20px; /* Maintain distance between card and title */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Add curve */
+}
+
+.card:hover {
+    border-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card h2 {
+    color: black;
+}
+
+.card button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Add curve to buttons */
+}
+
+/* Adjust input elements to fit four in the same row */
+.card input[type="text"],
+.card input[type="date"],
+.card select {
+    width: calc(20% - 10px); /* 25% width for each input with 10px margin */
+    margin: 8px 8px; /* Equal margin */
+    border-radius: 10px; /* Add curve */
+    padding: 8px; /* Reduce padding */
+}
+
+.card input[type="number"] {
+    width: calc(25% - 5%); /* 25% width for expense cost with 20px margin */
+    margin: 10px 10px; /* Equal margin */
+    border-radius: 10px; /* Add curve */
+    padding: 8px; /* Reduce padding */
+}
+
+/* Style table with a table-like background */
+table {
+    width: calc(100% - 20px);
+    margin: 10px;
+    background-color: lightgray; /* Table-like background color */
+    border-collapse: collapse;
+    border-radius: 1px; /* Add curve */
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* Move "Add Expense" button to the center */
+#addExpense {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Move "Export CSV" button below expense table */
+#exportCSV {
+    display: block;
+    margin: 20px auto;
+    background-color: yellow; /* Change background color to blue */
+    color: black; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Add curve */
+    cursor: pointer;
+}
