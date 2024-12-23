@@ -2,7 +2,7 @@
 
 ## Inspiration
 
-In today's world, managing personal finances efficiently is essential for financial stability and achieving long-term goals. The project, aimed at developing a Personal Expense Tracker with MongoDB integration, emerged from the need to provide users with a seamless and effective tool for monitoring their expenses, analyzing spending patterns, and improving financial management skills. Inspired by the challenges of budgeting in modern life, I sought to create a user-friendly platform that empowers individuals to take control of their finances.
+In today's world, managing personal finances efficiently is essential for financial stability and achieving long-term goal. The project, aimed at developing a Personal Expense Tracker with MongoDB integration, emerged from the need to provide users with a seamless and effective tool for monitoring their expenses, analyzing spending patterns, and improving financial management skills. Inspired by the challenges of budgeting in modern life, I sought to create a user-friendly platform that empowers individuals to take control of their finances.
 
 ## What it Does
 
